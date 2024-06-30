@@ -1,0 +1,17 @@
+name: Grace Pandora
+on: [push]
+jobs: 
+  grace-first-job:
+    runs-on: ubuntu-latest
+    steps:
+      name: Say my code
+      run: echo "Grace Awesome Pandora Teammate"
+
+  Clone-My-Repository:
+    runs-on: ubuntu-latest
+    steps:
+      name: Clone repo
+      uses: actions/checkout@v4
+
+      name: List all the file
+      runs: ls -larh
