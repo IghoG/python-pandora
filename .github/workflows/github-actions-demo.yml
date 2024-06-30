@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Say my code
-        run: echo "Grace Awesome Pandora Teammate"
+      run: echo "Grace Awesome Pandora Teammate"
 
   Clone-My-Repository:
     runs-on: ubuntu-latest
@@ -14,4 +14,4 @@ jobs:
       uses: actions/checkout@v4
 
     - name: List all the file
-        run: ls -larh
+      run: ls -larh
